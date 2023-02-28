@@ -1,0 +1,6 @@
+To filter out pixels outside the tissue slice, we:
+impose the H&E staining image on the spatial map of all pixels, 
+manually align two images according to their boundaries, 
+extract the coordinates of valid pixels within the tissue.
+
+Note: Save the svg before & after edition in the same format.

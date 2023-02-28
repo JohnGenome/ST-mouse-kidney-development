@@ -1,0 +1,12 @@
+To partition the whole kidney into different layers, we: 
+filter out cells belonging to ureter, 
+and outline the cells located at layer boundaries manually. 
+Cells are divided into L1 L2 L3 L4 L5, while boundaries are divided into B0 B1 B2 B3 B4 B5.
+
+More specifically, we take cells at cortical surface as the outer cortex boundary, 
+cells at the junction of NP/UBT and PT prog/D prog as the inner cortex boundary, 
+cells at the junction of PT/Pod and oMFib as the outer medulla boundary, 
+cells at the junction of oMFib and mMFib as the intermediate medulla boundary, 
+cells at the junction of mMFib and iMFib as the inner medulla boundary and pelvic cells as the most inner boundary.
+
+Note: Save the svg before & after splitting in the same format.
